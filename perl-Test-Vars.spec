@@ -1,6 +1,6 @@
 Name:		perl-Test-Vars
 Version:	0.005
-Release:	2%{?dist}
+Release:	3%{?dist}
 Summary:	Detects unused variables
 License:	GPL+ or Artistic
 Group:		Development/Libraries
@@ -71,6 +71,9 @@ perl Build.PL installdirs=vendor
 %{_mandir}/man3/Test::Vars.3pm*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.005-3
+- Mass rebuild 2013-12-27
+
 * Mon Jul 01 2013 Jitka Plesnikova <jplesnik@redhat.com> - 0.005-2
 - Update dependencies
 
