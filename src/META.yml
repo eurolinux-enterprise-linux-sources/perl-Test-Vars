@@ -1,0 +1,45 @@
+---
+abstract: 'Detects unused variables'
+author:
+  - 'Goro Fuji (gfx) <gfuji(at)cpan.org>'
+build_requires:
+  ExtUtils::MakeMaker: 6.59
+  Test::More: 0.88
+configure_requires:
+  CPAN::Meta: 0
+  CPAN::Meta::Prereqs: 0
+  Module::Build: 0.38
+dynamic_config: 0
+generated_by: 'Minilla/v0.4.4, CPAN::Meta::Converter version 2.130880'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Test-Vars
+no_index:
+  directory:
+    - t
+    - xt
+    - inc
+    - share
+    - eg
+    - examples
+    - author
+provides:
+  Test::Vars:
+    file: lib/Test/Vars.pm
+    version: 0.005
+requires:
+  B: 0
+  parent: 0
+  perl: 5.010000
+resources:
+  bugtracker: https://github.com/gfx/p5-Test-Vars/issues
+  homepage: https://github.com/gfx/p5-Test-Vars
+  repository: git://github.com/gfx/p5-Test-Vars.git
+version: 0.005
+x_contributors:
+  - 'Nicholas Clark <nick@ccl4.org>'
+  - 'Olivier MenguÃ© <dolmen@cpan.org>'
+  - 'Fuji, Goro <gfuji@cpan.org>'
+  - 'Fuji, Goro <g.psy.va@gmail.com>'
